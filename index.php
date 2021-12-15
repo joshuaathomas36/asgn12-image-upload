@@ -5,15 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Upload Using PHP</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-    </style>
+    <link rel ="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
     <?php if (isset($_GET['error'])): ?>
